@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="fitness.css">
+	<title>LIRR All Stars January Fitness Challenge</title>
+</head>
+<body>
+	<h1>Enter your info here!</h1>
+	<form action="submit.php" method="post">
+		Derby Name: <br />
+		<input type="text" name="name">
+		<br />
+		<h3>Exercise</h3>
+		<input type="radio" name="workout" value="yes" checked>I worked out for at least 30 minutes.
+		<br />
+		<input type="radio" name="workout" value="no">I did not workout for 30 minutes.
+		<br />
+		<h3>Diet</h3>
+		<input type="radio" name="diet" value="superhealth" checked>I ate healthy all day!
+		<br />
+		<input type="radio" name="diet" value="health">I ate mostly healthy today.
+		<br />
+		<input type="radio" name="diet" value="kindahealth">I ate kind of healthy today.
+		<br />
+		<input type="radio" name="diet" value="nothealth">I didn't really eat healthy today.
+		<br /><br />
+		<input type="submit" value="Submit">
+	</form>
+</body>
